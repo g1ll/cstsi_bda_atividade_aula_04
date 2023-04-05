@@ -27,22 +27,22 @@ function getFilterByChild(filter,value, db,callback){
     console.log(filter)
 }
 
-function getMostExpensive(db,setValue,list){
+function getMostExpensive(db,setValue){
     // implement aqui
-    /**
+     /**
      *     Nesta função é necessário implementar o callback,
      * pois será necessário ordenar os resultados no cliente
      * pelos produtos mais caros (reverso). É necessário chamar 
-     * a função setValue() e o array list passados como parametro.
-     * Para repassar os resultados do client React utiliza-se a função
-     * setValue() com os parametros [...list], ou seja, setValue([...list])
-     * onde em list deverá estar o array de produtos ordenados pelo preco
-     * mais caro. Lembrando que list é um array, use os métodos para trabalhar
+     * a função setValue() passados como parametro o array com os
+     * produtos ordenados pelo preco mais caro. Use os métodos para trabalhar
      * com arrays em JavaScript! Dica: usem reverse() ou unshift().
      * 
-     *  */ 
-
-
+     *  */
+    const list = [];
+    //snapshot.val() ==> Dado
+    //snapshot.key ==> hashTimestumpRTDB
+    //implementar consulta
+    //setValue(list)
 }
 
 function getMostCheap(db,callback){

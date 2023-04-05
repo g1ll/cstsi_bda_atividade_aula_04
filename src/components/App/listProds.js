@@ -55,9 +55,8 @@ function ListProds(props) {
     }
 
     const handlerMostExpensive = () => {
-        prods.length = 0;
-        setData([...prods])
-        getMostExpensive(props.firebase.db, setData, prods)
+        setData([])
+        getMostExpensive(props.firebase.db, setData)
     }
 
     const handlerMostCheap = () => {
