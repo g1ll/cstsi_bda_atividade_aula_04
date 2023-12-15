@@ -1,4 +1,4 @@
-# CSTSI-BDA: Atividade Aual 4 - Filtros com Firebase
+# CSTSI-BDA: Atividade Aula 4 - Filtros com Firebase
 
 ## Exemplo:
 
